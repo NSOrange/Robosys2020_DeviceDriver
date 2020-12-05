@@ -21,8 +21,42 @@
 
 ・抵抗(330Ω)　×9
 
-# ビルド方法
-・このリポジトリのクローンを作成
-  
+・装飾するクリスマスツリー
+以下が装飾前の物の写真です
 
-・
+# ビルド方法
+以下の手順で操作を行ってください
+
+$ git clone https://github.com/NSOrange/Robosys2020_DeviceDriver.git
+
+$ cd myled
+
+$ make
+
+$ sudo insmod myled.ko
+
+$ sudo chmod 666 /dev/myled0
+
+$ echo 1~3のうちの任意の数値 > /dev/myled0
+
+終了する際に
+
+$ sudo rmmod myled
+
+# 実行について
+現在３つの発光パターンがあり、そのモード選択を1～3の数値で行ってます
+
+GPIOの使用しているピンもなんとなくクリスマスを連想させるものを使ってます
+
+部屋を暗くして楽しんでください！
+
+# 実際の動作
+以下のURLより動画を視聴できます
+
+https://www.youtube.com/watch?v=BrEtdw6s65M
+
+# ライセンス
+このリポジトリには以下のライセンスが付与されています
+
+GNU General Public License v3.0
+
