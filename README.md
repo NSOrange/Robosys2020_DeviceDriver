@@ -41,7 +41,9 @@
 # ビルド方法
 以下の手順で操作を行ってください
 
-$ git clone https://github.com/NSOrange/Robosys2020_DeviceDriver.git
+・インストール手順
+
+`$ git clone https://github.com/NSOrange/Robosys2020_DeviceDriver.git
 
 $ cd myled
 
@@ -49,13 +51,15 @@ $ make
 
 $ sudo insmod myled.ko
 
-$ sudo chmod 666 /dev/myled0
+$ sudo chmod 666 /dev/myled0`
 
-$ echo 1~3のうちの任意の数値 > /dev/myled0
+・実行手順
 
-終了する際に
+`$ echo 1~3のうちの任意の数値 > /dev/myled0`
 
-$ sudo rmmod myled
+・終了する際に
+
+`$ sudo rmmod myled`
 
 # 実行について
 ・現在３つの発光パターンがあり、そのモード選択を1～3の数値で行ってます
