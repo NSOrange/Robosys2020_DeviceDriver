@@ -3,7 +3,6 @@
 // Copyright (C) 2020 Ryuichi Ueda and Naoya Suzuki                              
 //                         
 
-
 #include <linux/module.h>
 #include <linux/fs.h>
 #include <linux/cdev.h>
