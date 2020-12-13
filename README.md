@@ -43,15 +43,15 @@
 
 ・インストール手順
 
-`$ git clone https://github.com/NSOrange/Robosys2020_DeviceDriver.git
+`$ git clone https://github.com/NSOrange/Robosys2020_DeviceDriver.git`
 
-$ cd myled
+`$ cd myled`
 
-$ make
+`$ make`
 
-$ sudo insmod myled.ko
+`$ sudo insmod myled.ko`
 
-$ sudo chmod 666 /dev/myled0`
+`$ sudo chmod 666 /dev/myled0`
 
 ・実行手順
 
